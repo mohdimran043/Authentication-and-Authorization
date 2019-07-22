@@ -3,3 +3,5 @@
 ################################################################################
 
 /IdentityServer/.vs/IdentityServer/v16/Server/sqlite3
+/Client/.vs/Client/v16
+/Client/.vs/Client/DesignTimeBuild

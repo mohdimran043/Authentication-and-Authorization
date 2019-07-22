@@ -9,3 +9,14 @@ E:\Docs\January\Authetication and Authorization\MVCWebApplication\MVCWebApplicat
 E:\Docs\January\Authetication and Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfo.cs
 E:\Docs\January\Authetication and Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.dll
 E:\Docs\January\Authetication and Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.pdb
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.deps.json
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.runtimeconfig.json
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.runtimeconfig.dev.json
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.dll
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.pdb
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.csprojAssemblyReference.cache
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.csproj.CoreCompileInputs.cache
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfoInputs.cache
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfo.cs
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.dll
+D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.pdb

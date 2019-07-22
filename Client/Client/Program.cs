@@ -12,7 +12,7 @@ namespace Client
 
         private static async Task MainAsync()
         {
-            var identityServer = await DiscoveryClient.GetAsync("http://localhost:49381"); //discover the IdentityServer
+            var identityServer = await DiscoveryClient.GetAsync("http://localhost:44444"); //discover the IdentityServer
             if (identityServer.IsError) 
             {
                 Console.Write(identityServer.Error);
@@ -22,7 +22,7 @@ namespace Client
             //Get the token
             var tokenClient = new TokenClient(identityServer.TokenEndpoint, "Client1", "secret");
             //var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
-            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("satya", "password", "api1");
+            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("admin", "password", "api1");
 
             //Call the API
 

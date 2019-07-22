@@ -37,7 +37,7 @@ namespace MVCWebApplication
             {
                 options.SignInScheme = "Cookies";
 
-                options.Authority = "http://localhost:49381/";
+                options.Authority = "http://localhost:44444/";
                 options.RequireHttpsMetadata = false;
 
                 options.ClientId = "mvc";

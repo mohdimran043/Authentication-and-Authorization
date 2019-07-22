@@ -1,0 +1,12 @@
+﻿dotnet ef dbcontext scaffold "Host=localhost;Database=MOI_ApplicationPermission;Username=postgres;Password=12345" Npgsql.EntityFrameworkCore.PostgreSQL -o ORM_Auth -f
+
+
+ if (!optionsBuilder.IsConfigured)
+ {
+     IConfigurationRoot configuration = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+     var connectionString = configuration.GetConnectionString("AuthenticationConnection");
+     optionsBuilder.UseNpgsql(connectionString);
+ }

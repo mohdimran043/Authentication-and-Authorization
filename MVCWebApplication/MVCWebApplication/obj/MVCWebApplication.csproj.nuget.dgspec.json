@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
+        "projectName": "MVCWebApplication",
+        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
+        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
+        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

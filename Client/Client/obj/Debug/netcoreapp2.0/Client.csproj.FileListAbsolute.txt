@@ -9,3 +9,14 @@ E:\Docs\January\Authetication and Authorization\Client\Client\obj\Debug\netcorea
 E:\Docs\January\Authetication and Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.pdb
 E:\Docs\January\Authetication and Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.dll
 E:\Docs\January\Authetication and Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.pdb
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.dll
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\bin\Debug\netcoreapp2.0\Client.pdb
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.csprojAssemblyReference.cache
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.dll
+D:\Imran\Angular\Authentication-and-Authorization\Client\Client\obj\Debug\netcoreapp2.0\Client.pdb
