@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MOI.Patrol.ORM_Auth;
 using Microsoft.Extensions.Configuration;
 using IdentityServer4.Services;
+using IdentityServer.Initialize;
 
 namespace IdentityServer
 {
@@ -29,21 +30,25 @@ namespace IdentityServer
             {
                 options.UseNpgsql(Configuration["ConnectionStrings:AuthenticationConnection"]);
             });
-            
+
             services.AddMvc();
             services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>()
                   .AddTransient<IProfileService, ProfileService>();
             services.AddIdentityServer().AddDeveloperSigningCredential()
-                .AddInMemoryClients(Config.GetClients())
-                .AddInMemoryApiResources(Config.GetApiResources())
-               // .AddTestUsers(Config.GetUsers())
-                .AddInMemoryIdentityResources(Config.GetIdentityResources());
-          
+             //.AddConfigurationStore(option => option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("AuthenticationConnection"), options =>
+             //    options.MigrationsAssembly("IdentityServer")))
+             //    .AddOperationalStore(option =>
+             //           option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("AuthenticationConnection"), options =>
+             //           options.MigrationsAssembly("IdentityServer")));
+             .AddInMemoryClients(Config.GetClients())
+             .AddInMemoryApiResources(Config.GetApiResources())
+             .AddInMemoryIdentityResources(Config.GetIdentityResources());
+
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, MOI_ApplicationPermissionContext context)
         {
             if (env.IsDevelopment())
             {
@@ -53,6 +58,8 @@ namespace IdentityServer
             app.UseIdentityServer();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+
+            // DatabaseInitializer.Initialize(app, context);
         }
     }
 }
