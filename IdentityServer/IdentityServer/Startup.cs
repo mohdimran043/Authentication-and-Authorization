@@ -8,6 +8,7 @@ using MOI.Patrol.ORM_Auth;
 using Microsoft.Extensions.Configuration;
 using IdentityServer4.Services;
 using IdentityServer.Initialize;
+using MOI.IdentityServer.DataAccess.DbContexts;
 
 namespace IdentityServer
 {
@@ -29,26 +30,33 @@ namespace IdentityServer
             services.AddEntityFrameworkNpgsql().AddDbContext<MOI_ApplicationPermissionContext>(options =>
             {
                 options.UseNpgsql(Configuration["ConnectionStrings:AuthenticationConnection"]);
+            }).AddEntityFrameworkNpgsql().AddDbContext<AuthDbContext>(options =>
+            {
+                options.UseNpgsql(Configuration["ConnectionStrings:IdentityAuthDB"]);
             });
 
             services.AddMvc();
             services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>()
                   .AddTransient<IProfileService, ProfileService>();
+
+            //services.AddIdentityServer().AddDeveloperSigningCredential()           
+            // .AddInMemoryClients(Config.GetClients())
+            // .AddInMemoryApiResources(Config.GetApiResources())
+            // .AddInMemoryIdentityResources(Config.GetIdentityResources());
+
+
             services.AddIdentityServer().AddDeveloperSigningCredential()
-             //.AddConfigurationStore(option => option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("AuthenticationConnection"), options =>
-             //    options.MigrationsAssembly("IdentityServer")))
-             //    .AddOperationalStore(option =>
-             //           option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("AuthenticationConnection"), options =>
-             //           options.MigrationsAssembly("IdentityServer")));
-             .AddInMemoryClients(Config.GetClients())
-             .AddInMemoryApiResources(Config.GetApiResources())
-             .AddInMemoryIdentityResources(Config.GetIdentityResources());
+             .AddConfigurationStore(option => option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("IdentityAuthDB"), options =>
+                 options.MigrationsAssembly("MOI.IdentityServer.DataAccess")))
+                 .AddOperationalStore(option =>
+                        option.ConfigureDbContext = builder => builder.UseNpgsql(Configuration.GetConnectionString("IdentityAuthDB"), options =>
+                        options.MigrationsAssembly("MOI.IdentityServer.DataAccess")));
 
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, MOI_ApplicationPermissionContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, AuthDbContext context)
         {
             if (env.IsDevelopment())
             {
@@ -59,7 +67,7 @@ namespace IdentityServer
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
-            // DatabaseInitializer.Initialize(app, context);
+             DatabaseInitializer.Initialize(app, context);
         }
     }
 }

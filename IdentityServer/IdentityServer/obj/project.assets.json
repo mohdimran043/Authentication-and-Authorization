@@ -1815,6 +1815,19 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Sqlite/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -2107,10 +2120,10 @@
           "lib/netcoreapp2.0/Microsoft.Extensions.DiagnosticAdapter.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.0"
+          "Microsoft.Extensions.Primitives": "2.2.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
@@ -2143,11 +2156,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
+      "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "2.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.2.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
@@ -2156,7 +2169,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
+      "Microsoft.Extensions.FileSystemGlobbing/2.2.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
@@ -2165,13 +2178,29 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/2.1.0": {
+      "Microsoft.Extensions.Hosting/2.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.2.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
@@ -2829,7 +2858,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2879,6 +2908,25 @@
         },
         "runtime": {
           "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.2",
+          "Microsoft.Extensions.DependencyInjection": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1",
+          "Npgsql": "3.2.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "1.1.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -4881,11 +4929,32 @@
       "MOI.IdentityServer.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IdentityServer4": "2.5.0",
+          "IdentityServer4.EntityFramework.Storage": "2.5.0",
+          "MOI.IdentityServer.Infrastructure": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.1"
+        },
         "compile": {
           "bin/placeholder/MOI.IdentityServer.DataAccess.dll": {}
         },
         "runtime": {
           "bin/placeholder/MOI.IdentityServer.DataAccess.dll": {}
+        }
+      },
+      "MOI.IdentityServer.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "2.2.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/MOI.IdentityServer.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MOI.IdentityServer.Infrastructure.dll": {}
         }
       }
     }
@@ -6424,6 +6493,21 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+      "sha512": "pu2Jxndzv3slY6Ch9mdqVfL3AFhH5XzM02Rrnf9h5lKoViprYx1O+nNqT3BxmGrPkYadY9OddG2b9+sUO3Xuzw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "microsoft.entityframeworkcore.relational.design.1.1.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.design.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Sqlite/2.0.0": {
       "sha512": "Tc3Dbjw86JXUNGl6UiB+Ritj0uWyjhi6vXBxK/aa0SNQeX06eh8zQoyhu2tSmj45aS6nOIrmPkkXQa41gQ3jKQ==",
       "type": "package",
@@ -6733,16 +6817,16 @@
         "microsoft.extensions.diagnosticadapter.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
-      "sha512": "itv+7XBu58pxi8mykxx9cUO1OOVYe0jmQIZVSZVp5lOcLxB7sSV2bnHiI1RSu6Nxne/s6+oBla3ON5CCMSmwhQ==",
+    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+      "sha512": "33vTyijzAVEfbuNFts68R7bW02cJMiw21MFgMBk+XL+thcbv335PVD1+DdMSvN6e5DeAR4OmPSRsKIr86Yk4qg==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.1.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
@@ -6772,42 +6856,55 @@
         "microsoft.extensions.fileproviders.embedded.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
-      "sha512": "2x4RTUP15C0F36KKfFgOu+vSHge30ZctfNowdk32/xjGONhYnyxxtEvyyd6+0Ugglw+MYOjfdh5txLV4ldtN+Q==",
+    "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
+      "sha512": "Qt6sUa56/XbLxYshrCzwJYhHO9TkVa9Adch1qVqr7PGuLCxRs3K7nGMv3I6msUvAJqiJE33Oexz6KrT4hcUHgA==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/2.0.0",
+      "path": "microsoft.extensions.fileproviders.physical/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.2.2.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.physical.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
-      "sha512": "wQUa9yUoU9K8E3kn4J5Xw+cgHLzu1RV6U7JH7Be3gTQE+uBW/J8F8CZi9KpqQ7SKwTcjRaVLjbp86288VXkriA==",
+    "Microsoft.Extensions.FileSystemGlobbing/2.2.0": {
+      "sha512": "WGASE48sldx5PHrmxpmW0qFJ0M0mZXhF9IgdBDTSNmnys7Qfw7xTuHs/nmbA1Wo8Y8XFI7K2cJKf9Ql/nBK4Rw==",
       "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/2.0.0",
+      "path": "microsoft.extensions.filesystemglobbing/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.2.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.2.2.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/2.1.0": {
-      "sha512": "BpMaoBxdXr5VD0yk7rYN6R8lAU9X9JbvsPveNdKT+llIn3J5s4sxpWqaSG/NnzTzTLU5eJE5nrecTl7clg/7dQ==",
+    "Microsoft.Extensions.Hosting/2.2.0": {
+      "sha512": "PxZPd5QbWr8+3JN2segEaD7IAYI+mR8ZmMqgo6GOk+E+UKnRcbC3RSQgJrZYuWVQwJCvdxesO5e64LSHC1zC8g==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/2.1.0",
+      "path": "microsoft.extensions.hosting/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.xml",
+        "microsoft.extensions.hosting.2.2.0.nupkg.sha512",
+        "microsoft.extensions.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+      "sha512": "Uupv0fAgMVBgx6xKnlm4TRrD+aTBQBXCr1QxDFREK+oQ4wrG2lCEmIeqn0YhS17H8T+bRKXTyFBCB5LrOZelWw==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
@@ -7991,10 +8088,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8017,7 +8114,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -8065,6 +8162,19 @@
         "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.pdb",
         "npgsql.entityframeworkcore.postgresql.2.2.4.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+      "sha512": "UXgRNtmOIc/gw3bvdof4hZu4rL9xIUGeSWklasd+Oj9SF7EH+OTu43/Qsz6YYrqX2sem2qxd004LwtW/CWpVHg==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql.design/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
+        "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
+        "npgsql.entityframeworkcore.postgresql.design.1.1.1.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.design.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -13212,6 +13322,11 @@
       "type": "project",
       "path": "../MOI.IdentityServer.DataAccess/MOI.IdentityServer.DataAccess.csproj",
       "msbuildProject": "../MOI.IdentityServer.DataAccess/MOI.IdentityServer.DataAccess.csproj"
+    },
+    "MOI.IdentityServer.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MOI.IdentityServer.Infrastructure/MOI.IdentityServer.Infrastructure.csproj",
+      "msbuildProject": "../MOI.IdentityServer.Infrastructure/MOI.IdentityServer.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

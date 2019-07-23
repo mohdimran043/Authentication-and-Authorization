@@ -20,3 +20,8 @@ D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\De
 D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.AssemblyInfo.cs
 D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.dll
 D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.DataAccess.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.Infrastructure.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.DataAccess.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.Infrastructure.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.csproj.CopyComplete

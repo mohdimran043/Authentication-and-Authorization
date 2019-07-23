@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MOI.IdentityServer.DataAccess
+namespace MOI.IdentityServer.Infrastructure
 {
     public class Class1
     {

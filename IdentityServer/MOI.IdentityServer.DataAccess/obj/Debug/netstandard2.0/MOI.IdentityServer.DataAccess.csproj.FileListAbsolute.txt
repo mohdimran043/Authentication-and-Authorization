@@ -1,0 +1,12 @@
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\bin\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.deps.json
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\bin\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.csprojAssemblyReference.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.csproj.CoreCompileInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.AssemblyInfoInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.AssemblyInfo.cs
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\bin\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\bin\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\bin\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.csproj.CopyComplete
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.DataAccess\obj\Debug\netstandard2.0\MOI.IdentityServer.DataAccess.pdb

@@ -4,14 +4,14 @@ using IdentityServer4.EntityFramework.Mappers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MOI.Patrol.ORM_Auth;
+using MOI.IdentityServer.DataAccess.DbContexts;
 using System.Linq;
 
 namespace IdentityServer.Initialize
 {
     public class DatabaseInitializer
     {
-        public static void Initialize(IApplicationBuilder app, MOI_ApplicationPermissionContext context)
+        public static void Initialize(IApplicationBuilder app, AuthDbContext context)
         {
             context.Database.EnsureCreated();
 

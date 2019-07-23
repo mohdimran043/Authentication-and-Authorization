@@ -1,0 +1,8 @@
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\bin\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.deps.json
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\bin\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.AssemblyInfoInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.AssemblyInfo.cs
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\bin\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.pdb
