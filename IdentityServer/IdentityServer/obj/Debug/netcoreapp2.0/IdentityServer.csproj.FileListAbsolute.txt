@@ -9,3 +9,14 @@ D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\IdentityServer\
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.AssemblyInfo.cs
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.dll
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\IdentityServer.deps.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\IdentityServer.runtimeconfig.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\IdentityServer.runtimeconfig.dev.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\IdentityServer.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\IdentityServer.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.csprojAssemblyReference.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.csproj.CoreCompileInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.AssemblyInfoInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.AssemblyInfo.cs
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\IdentityServer.pdb

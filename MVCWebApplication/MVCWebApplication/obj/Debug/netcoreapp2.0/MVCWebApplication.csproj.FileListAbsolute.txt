@@ -20,3 +20,14 @@ D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplic
 D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfo.cs
 D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.dll
 D:\Imran\Angular\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.pdb
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.deps.json
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.runtimeconfig.json
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.runtimeconfig.dev.json
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.dll
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\bin\Debug\netcoreapp2.0\MVCWebApplication.pdb
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.csprojAssemblyReference.cache
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.csproj.CoreCompileInputs.cache
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfoInputs.cache
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.AssemblyInfo.cs
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.dll
+D:\Project\Authentication-and-Authorization\MVCWebApplication\MVCWebApplication\obj\Debug\netcoreapp2.0\MVCWebApplication.pdb

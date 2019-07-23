@@ -22,7 +22,7 @@ namespace WebAPI
             services.AddAuthentication("Bearer") // it is a Bearer token
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:49381"; //Identity Server URL
+                    options.Authority = "http://localhost:4444"; //Identity Server URL
                     options.RequireHttpsMetadata = false; // make it false since we are not using https
                     options.ApiName = "api1"; //api name which should be registered in IdentityServer
                 });

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj": {}
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj": {
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
-        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\obj\\",
+        "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {
+                "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -68,6 +72,60 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
+        "projectName": "MOI.IdentityServer.DataAccess",
+        "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
           "imports": [
