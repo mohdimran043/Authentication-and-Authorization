@@ -20,7 +20,7 @@ namespace Client
                 return;
             }
 
-            //Get the token
+            //Get the token2
             var tokenClient = new TokenClient(identityServer.TokenEndpoint, "Client1", "secret");
             //var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
             var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("admin", "password");

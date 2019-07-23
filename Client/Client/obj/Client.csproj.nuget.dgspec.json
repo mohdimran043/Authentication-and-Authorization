@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Authentication-and-Authorization\\Client\\Client\\Client.csproj": {}
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Authentication-and-Authorization\\Client\\Client\\Client.csproj": {
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\Project\\Authentication-and-Authorization\\Client\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Authentication-and-Authorization\\Client\\Client\\obj\\",
+        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
+        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,10 +46,6 @@
             "IdentityModel": {
               "target": "Package",
               "version": "[3.0.0-ardbeg, )"
-            },
-            "IdentityServer4": {
-              "target": "Package",
-              "version": "[2.5.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
