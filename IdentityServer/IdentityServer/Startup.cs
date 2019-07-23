@@ -69,7 +69,7 @@ namespace IdentityServer
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
-            
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +28,14 @@ namespace MVCWebApplication
                 options.AddPolicy("Admin", policy => policy.RequireRole("admin"));
             });
 
+            //services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+            //   .AddIdentityServerAuthentication(options =>
+            //   {
+            //       options.Authority = "http://localhost:4343/";
+            //       options.SupportedTokens = SupportedTokens.Jwt;
+            //       options.RequireHttpsMetadata = false; // Note: Set to true in production
+            //       options.ApiName = "mvc";
+            //   });
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = "Cookies";
@@ -44,7 +53,7 @@ namespace MVCWebApplication
                 options.Scope.Add("roles");
                 options.SaveTokens = true;
             });
-     
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -25,16 +25,8 @@ namespace Client
             //var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
             var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("admin", "password");
             //    var refreshResponse = await tokenClient.RequestRefreshTokenAsync(new RefreshTokenRequest(identityServer.TokenEndpoint, "Client1", "secret",tokenResponse.RefreshToken));
-            var refreshResponse = await tokenClient.RequestRefreshTokenAsync(tokenResponse.RefreshToken);
-            //    new RefreshTokenRequest
-            //{
-            //    Address = identityServer.TokenEndpoint,
+            // var refreshResponse = await tokenClient.RequestRefreshTokenAsync(tokenResponse.RefreshToken);
 
-            //    ClientId = "client",
-            //    ClientSecret = "secret",
-
-            //    RefreshToken = "xyz"
-            //});
             //Call the API
 
             HttpClient client = new HttpClient();
@@ -45,10 +37,10 @@ namespace Client
             var content = await response.Content.ReadAsStringAsync();
             Console.WriteLine(JArray.Parse(content));
             client = new HttpClient();
-            client.SetBearerToken(refreshResponse.AccessToken);
-            var response1 = await client.GetAsync("http://localhost:52037/api/values/5");
-            var content1 = await response1.Content.ReadAsStringAsync();
-            Console.WriteLine(content1);
+            //client.SetBearerToken(refreshResponse.AccessToken);
+            //var response1 = await client.GetAsync("http://localhost:52037/api/values/5");
+            //var content1 = await response1.Content.ReadAsStringAsync();
+            //Console.WriteLine(content1);
             Console.ReadKey();
         }
     }
