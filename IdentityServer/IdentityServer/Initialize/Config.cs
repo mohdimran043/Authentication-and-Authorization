@@ -3,12 +3,12 @@ using IdentityServer4.Models;
 using IdentityServer4.Test;
 using System.Collections.Generic;
 using System.Security.Claims;
-using static IdentityServer4.IdentityServerConstants;
 
-namespace IdentityServer.Initialize
+namespace IdentityServer
 {
     public class Config
-    { //Defining the InMemory Clients
+    {
+        //Defining the InMemory Clients
         public static IEnumerable<Client> GetClients()
         {
             List<Client> clients = new List<Client>();
@@ -23,7 +23,8 @@ namespace IdentityServer.Initialize
                     new Secret("secret".Sha256())
                 },
 
-                AllowedScopes = { "api1" }
+                AllowedScopes = { "api1", IdentityServerConstants.StandardScopes.OfflineAccess },
+                AllowOfflineAccess = true
 
             });
 
@@ -44,10 +45,11 @@ namespace IdentityServer.Initialize
                  {
                      IdentityServerConstants.StandardScopes.OpenId,
                      IdentityServerConstants.StandardScopes.Profile,
+                      IdentityServerConstants.StandardScopes.OfflineAccess,
                       "roles"
                  },
-                AlwaysIncludeUserClaimsInIdToken = true //It should be true to send Claims with token
-
+                AlwaysIncludeUserClaimsInIdToken = true,
+                AllowOfflineAccess = true
             });
 
             return clients;

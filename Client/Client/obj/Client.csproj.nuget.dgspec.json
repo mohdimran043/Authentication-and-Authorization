@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[3.0.0-ardbeg, )"
             },
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

@@ -36,10 +36,11 @@ namespace IdentityServer
             });
 
             services.AddMvc();
-            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>()
-                  .AddTransient<IProfileService, ProfileService>();
 
-            //services.AddIdentityServer().AddDeveloperSigningCredential()           
+            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>().AddTransient<IProfileService, ProfileService>();
+
+
+            //services.AddIdentityServer().AddDeveloperSigningCredential()
             // .AddInMemoryClients(Config.GetClients())
             // .AddInMemoryApiResources(Config.GetApiResources())
             // .AddInMemoryIdentityResources(Config.GetIdentityResources());
@@ -63,11 +64,12 @@ namespace IdentityServer
                 app.UseDeveloperExceptionPage();
             }
 
+            DatabaseInitializer.Initialize(app, context);
             app.UseIdentityServer();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
-             DatabaseInitializer.Initialize(app, context);
+            
         }
     }
 }

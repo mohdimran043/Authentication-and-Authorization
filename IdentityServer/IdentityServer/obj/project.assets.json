@@ -13347,9 +13347,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
-      "projectName": "IdentityServer",
-      "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+      "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\MOI.IdentityServer.csproj",
+      "projectName": "MOI.IdentityServer",
+      "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\MOI.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
       "outputPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\IdentityServer\\obj\\",
       "projectStyle": "PackageReference",

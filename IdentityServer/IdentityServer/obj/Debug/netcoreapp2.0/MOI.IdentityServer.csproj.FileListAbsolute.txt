@@ -1,0 +1,16 @@
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.deps.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.runtimeconfig.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.runtimeconfig.dev.json
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.DataAccess.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.Infrastructure.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.DataAccess.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\bin\Debug\netcoreapp2.0\MOI.IdentityServer.Infrastructure.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.csprojAssemblyReference.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.csproj.CoreCompileInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.AssemblyInfoInputs.cache
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.AssemblyInfo.cs
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.csproj.CopyComplete
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.dll
+D:\Project\Authentication-and-Authorization\IdentityServer\IdentityServer\obj\Debug\netcoreapp2.0\MOI.IdentityServer.pdb
