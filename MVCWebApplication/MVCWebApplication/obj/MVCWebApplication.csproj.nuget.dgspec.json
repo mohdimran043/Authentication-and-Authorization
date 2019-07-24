@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {}
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {
+    "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
+        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
         "projectName": "MVCWebApplication",
-        "projectPath": "D:\\Project\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
-        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\obj\\",
+        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\MVCWebApplication.csproj",
+        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
+        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\MVCWebApplication\\MVCWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
