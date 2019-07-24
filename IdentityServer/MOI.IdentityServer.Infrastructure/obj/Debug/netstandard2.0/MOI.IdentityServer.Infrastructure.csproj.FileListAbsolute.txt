@@ -15,3 +15,4 @@ D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\MOI.IdentitySer
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.AssemblyInfo.cs
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.dll
 D:\Imran\Angular\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.pdb
+D:\Project\Authentication-and-Authorization\IdentityServer\MOI.IdentityServer.Infrastructure\obj\Debug\netstandard2.0\MOI.IdentityServer.Infrastructure.csprojAssemblyReference.cache

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {}
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
+        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
         "projectName": "MOI.IdentityServer.DataAccess",
-        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
-        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\obj\\",
+        "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\MOI.IdentityServer.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj": {
-                "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj"
+              "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj": {
+                "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj"
               }
             }
           }
@@ -78,20 +78,20 @@
         }
       }
     },
-    "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj": {
+    "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj",
         "projectName": "MOI.IdentityServer.Infrastructure",
-        "projectPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Mohd\\.nuget\\packages\\",
-        "outputPath": "D:\\Imran\\Angular\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\obj\\",
+        "projectPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\MOI.IdentityServer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mimran\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Authentication-and-Authorization\\IdentityServer\\MOI.IdentityServer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mimran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
