@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using IdentityServer4.Services;
 using IdentityServer.Initialize;
 using MOI.IdentityServer.DataAccess.DbContexts;
+using Microsoft.Extensions.Logging;
+using MOI.IdentityServer.Helpers;
 
 namespace IdentityServer
 {
@@ -57,8 +59,9 @@ namespace IdentityServer
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, AuthDbContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, AuthDbContext context, ILoggerFactory loggerFactory)
         {
+            Utilities.ConfigureLogger(loggerFactory);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

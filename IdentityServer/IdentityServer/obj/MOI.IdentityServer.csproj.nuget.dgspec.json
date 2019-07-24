@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[2.5.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.All": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -72,6 +76,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             }
           },
           "imports": [
