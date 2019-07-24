@@ -34,13 +34,8 @@ namespace IdentityServer
                 ClientId = "mvc",
                 ClientName = "MVC",
                 AllowedGrantTypes = GrantTypes.Implicit,
-
-                // where to redirect to after login
                 RedirectUris = { "http://localhost:62024/signin-oidc" },
-
-                // where to redirect to after logout
                 PostLogoutRedirectUris = { "http://localhost:62024/signout-callback-oidc" },
-
                 AllowedScopes = new List<string>
                  {
                      IdentityServerConstants.StandardScopes.OpenId,
