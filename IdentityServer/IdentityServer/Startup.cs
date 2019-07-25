@@ -11,6 +11,8 @@ using IdentityServer.Initialize;
 using MOI.IdentityServer.DataAccess.DbContexts;
 using Microsoft.Extensions.Logging;
 using MOI.IdentityServer.Helpers;
+using MOI.IdentityServer.IdentityServerExtensions;
+using MOI.IdentityServer.Repository;
 
 namespace IdentityServer
 {
@@ -39,6 +41,7 @@ namespace IdentityServer
 
             services.AddMvc();
 
+            services.AddSingleton<IUserRepository, UserRepository>();
             services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>().AddTransient<IProfileService, ProfileService>();
 
 

@@ -10,13 +10,13 @@ namespace MVCWebApplication.Controllers
     public class HomeController : Controller
     {
     
-        [Authorize(Policy = "All")]
+        [Authorize]
         public IActionResult Index()
         {
             return View();
         }
 
-        [Authorize(Policy = "Admin")]
+        [Authorize]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

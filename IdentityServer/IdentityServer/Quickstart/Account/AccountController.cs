@@ -19,6 +19,7 @@ using IdentityServer4.Events;
 using IdentityServer4.Extensions;
 using IdentityServer4.Models;
 using MOI.Patrol.ORM_Auth;
+using MOI.IdentityServer.Repository;
 
 namespace IdentityServer4.Quickstart.UI
 {
@@ -30,18 +31,22 @@ namespace IdentityServer4.Quickstart.UI
     [SecurityHeaders]
     public class AccountController : Controller
     {
+
         private readonly TestUserStore _users;
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IEventService _events;
         private readonly AccountService _account;
         private readonly MOI_ApplicationPermissionContext _appDBContext;
+        private readonly IUserRepository _userRepository;
         public AccountController(
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IHttpContextAccessor httpContextAccessor,
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events,
-            TestUserStore users = null)
+             IUserRepository userRepository,
+            TestUserStore users = null
+            )
         {
             // if the TestUserStore is not in DI, then we'll just use the global users collection
             _users = users ?? new TestUserStore(TestUsers.Users);
@@ -49,6 +54,7 @@ namespace IdentityServer4.Quickstart.UI
             _events = events;
             _account = new AccountService(interaction, httpContextAccessor, schemeProvider, clientStore);
             _appDBContext = new MOI_ApplicationPermissionContext();
+            _userRepository = userRepository;
         }
 
         /// <summary>
@@ -101,7 +107,8 @@ namespace IdentityServer4.Quickstart.UI
             {
                 // validate username/password against in-memory store
                 //if (_users.ValidateCredentials(model.Username, model.Password))
-                if (_appDBContext.MoiUser.Count() > 0)
+                //  if (_appDBContext.MoiUser.Count() > 0)
+                if (_userRepository.ValidateCredentials(model.Username, model.Password))
                 {
                     var user = _appDBContext.MoiUser.FirstOrDefault();
                     await _events.RaiseAsync(new UserLoginSuccessEvent(user.DomainUser, user.Id.ToString(), user.DomainUser));

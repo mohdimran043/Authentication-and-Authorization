@@ -27,16 +27,58 @@ namespace IdentityServer
                 AllowOfflineAccess = true
 
             });
+            clients.Add(new Client
+            {
+                ClientId = "mvc-client-hybrid",
+                ClientName = "MVC Client Code",
+                ClientSecrets = { new Secret("segredo".Sha256()) },
 
+                AllowedGrantTypes = GrantTypes.Hybrid,
+
+                RedirectUris = { "http://localhost:62026/signin-oidc" },
+                PostLogoutRedirectUris = { "http://localhost:62026/signout-callback-oidc" },
+
+
+                AllowedScopes = { "openid", "profile", "email", "financial.read", "offline_access" },
+                AllowAccessTokensViaBrowser = true,
+                //Refresh Token Settings
+                AllowOfflineAccess = true,
+                RequirePkce = true,
+                RequireConsent = false,
+                RefreshTokenUsage = TokenUsage.ReUse,
+                RefreshTokenExpiration = TokenExpiration.Sliding,
+                SlidingRefreshTokenLifetime = 60 * 60 * 24 * 365
+            });
+            clients.Add(new Client
+            {
+                ClientId = "mvc-client-code",
+                ClientName = "MVC Client Code",
+                ClientSecrets = { new Secret("segredo".Sha256()) },
+
+                AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+
+                RedirectUris = { "http://localhost:62026/signin-oidc" },
+                PostLogoutRedirectUris = { "http://localhost:62026/signout-callback-oidc" },
+
+
+                AllowedScopes = { "openid", "profile", "email", "financial.read", "offline_access" },
+
+                //Refresh Token Settings
+                AllowOfflineAccess = true,
+                RequireConsent = false,
+                RefreshTokenUsage = TokenUsage.ReUse,
+                RefreshTokenExpiration = TokenExpiration.Sliding,
+                SlidingRefreshTokenLifetime = 60 * 60 * 24 * 365
+            });
             //Client for MVC
             clients.Add(new Client()
             {
                 ClientId = "mvc",
                 ClientName = "MVC",
                 AllowedGrantTypes = GrantTypes.Implicit,
-                RequireConsent=false,
-                RedirectUris = { "http://localhost:62024/signin-oidc" },
-                PostLogoutRedirectUris = { "http://localhost:62024/signout-callback-oidc" },
+                RequireConsent = false,
+                RedirectUris = { "http://localhost:12021/signin-oidc" },
+                PostLogoutRedirectUris = { "http://localhost:12021/signout-callback-oidc" },
                 AllowedScopes = new List<string>
                  {
                      IdentityServerConstants.StandardScopes.OpenId,
